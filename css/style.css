@@ -10,3 +10,29 @@ body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, sans-serif, Arial;
 }
 
+/* regole header */
+header{
+    width: 100%;
+    background-color:rgb(253, 95, 38);
+    height: 60px;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    width: calc(100% / 3);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.button.header-left, .header-right{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff;
+    padding: 5px;
+}
+
+.logo{
+    width: 150px;
+}
