@@ -1,0 +1,12 @@
+/* regola di reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regola font pagina */
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, sans-serif, Arial;
+}
+
