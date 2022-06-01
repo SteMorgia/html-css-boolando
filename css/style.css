@@ -36,3 +36,40 @@ header{
 .logo{
     width: 150px;
 }
+
+/* regole main */
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.card{
+    position:relative
+}
+
+.immagine{
+    width: 300px;
+    margin: 20px;
+}
+
+.non-visibile{
+    display: none;
+    position:absolute;
+}
+
+.card:hover .non-visibile{
+    display: block;
+}
+
+.cuore{
+    
+}
+
