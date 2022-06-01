@@ -16,6 +16,10 @@ header{
     background-color:rgb(253, 95, 38);
     height: 60px;
     display: flex;
+    position:fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .header{
@@ -42,6 +46,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
 .container{
@@ -53,6 +58,7 @@ main{
 
 .card{
     position:relative
+    
 }
 
 .immagine{
@@ -60,9 +66,13 @@ main{
     margin: 20px;
 }
 
+
+
 .non-visibile{
     display: none;
-    position:absolute;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .card:hover .non-visibile{
@@ -70,6 +80,39 @@ main{
 }
 
 .cuore{
-    
+    position:absolute;
+    top: 20px;
+    right:20px;
+    background-color: #fff;
+    padding:10px;
 }
 
+.cuore.rosso{
+    color: red;
+    display: none;
+}
+
+.card:hover .rosso{
+    display:block;
+}
+
+.contenitore-interno{
+    position: absolute;
+    bottom: 60px;
+    left:20px;
+    display: flex;
+}
+
+.sconto{
+    background-color: red;
+    padding: 5px;
+    width: fit-content;
+    color: #fff;
+}
+
+.sost{
+    background-color: green;
+    padding: 5px;
+    width: fit-content;
+    color: #fff;
+}
