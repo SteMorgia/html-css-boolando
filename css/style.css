@@ -116,3 +116,27 @@ main{
     width: fit-content;
     color: #fff;
 }
+
+.big{
+    position:relative;
+    margin-bottom: 50px;
+}
+
+.info{
+    position:absolute;
+    left: 20px;
+    
+}
+
+.prezzo_rosso{
+    color: red;
+}
+
+ .prezzo_barrato{
+    color: gray;
+    text-decoration:line-through;
+ }
+
+ .brand{
+     color: gray;
+ }
